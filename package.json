@@ -1,0 +1,24 @@
+{
+  "name": "Fuzzy_Filtering_Profanity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "serve": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwirifki10/Fuzzy_Filtering_Profanity.git"
+  },
+  "keywords": [],
+  "author": "dwirifki10",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwirifki10/Fuzzy_Filtering_Profanity/issues"
+  },
+  "homepage": "https://github.com/dwirifki10/Fuzzy_Filtering_Profanity#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2"
+  }
+}
