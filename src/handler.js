@@ -1,4 +1,4 @@
-const { fuzzyFilter } = require("./libraries/FilteringProfanity/lib/index.js");
+const { fuzzyFilter } = require("./libraries/modules/main.js");
 
 const checkFilterProfanity = async (request, h) => {
 	let { merge } = request.query;
@@ -21,12 +21,20 @@ const checkFilterProfanity = async (request, h) => {
 	}
 
 	if (exclusion !== undefined) {
+		if (exclusion.includes("")) {
+			return h
+				.response({
+					status: "failed",
+					message: "undefined value '' of exclusion",
+				})
+				.code(422);
+		}
 		exclusion = exclusion.map((value) => {
 			return value.toLowerCase();
 		});
 	}
 
-	const result = await fuzzyFilter(sentence, merge, inclusion, exclusion);
+	const result = fuzzyFilter(sentence, merge, inclusion, exclusion);
 
 	if (result === false) {
 		return h

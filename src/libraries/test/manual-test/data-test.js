@@ -17,7 +17,7 @@ const data = [
 	},
 	/* etc Test */
 	{
-		test: "Bayi adalah anak manusia yang belum lama lahir. Dalam konteks kedokteran, bayi yang baru berusia di bawah 28 hari disebut neonata. Istilah bayi prematur dan bayi posmatur merujuk kepada bayi yang dilahirkan dengan durasi kehamilan yang dibatas normal pada 37-40 minggu. Bayi yang belum lahir disebut dengan janin.",
+		test: "Bayi adalah anak manusia yang belum lama lahir. Dalam konteks kedokteran, bayi yang baru berusia di bawah 28 hari disebut neonata. Istilah bayi prematur dan bayi posmatur merujuk kepada bayi yang dilahirkan dengan durasi kehamilan yang dibatas normal pada 37-40 minggu.Bayi yang belum lahir disebut dengan janin.",
 	},
 ];
 

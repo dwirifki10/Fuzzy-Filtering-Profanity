@@ -1,4 +1,4 @@
-const { fuzzyFilter } = require("../../lib/index.js");
+const { fuzzyFilter } = require("../../modules/main.js");
 const data = require("./data-test.js");
 
 for (let i = 0; i <= data.data.length - 1; i++) {
