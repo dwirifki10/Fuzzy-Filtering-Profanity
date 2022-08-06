@@ -1,7 +1,6 @@
-# Note :
+## Note :
 
-### Author Dwi Rifki Novianto Student Politeknik Negeri Jember
-
+### Author Dwi Rifki Novianto, Student at State Polytechnic of Jember
 ### How it works :
 
 -   Put your sentences or paragraph
@@ -12,6 +11,6 @@
 -   Return the result of levenshtein distance algorithm
 
 ### How to change your sentence or paragraph into an array ?
-
 `const regex = /([.,!:;"'])/gi;`
+<br>
 `const res = sentence.replace(regex, "$1 ").split(" ").filter((item) => { if (item !== "") { return item; } });`
