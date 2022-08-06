@@ -1,5 +1,5 @@
 ## Fuzzy Filtering Profanity
-is a RestFull APIs for filtering profanity by using <b>Levenshtein Distance </b> algorithm. Built with <b> Vanilla Javascript </b> and combined using <b> Hapi Framework </b> for making APIs. it allows you to build a website for blocking the harsh words.
+is a RestFull APIs for filtering profanity by using <b>Levenshtein Distance </b> algorithm. Built with <b> Vanilla JavaScript </b> and combined using <b> Hapi Framework </b> for making APIs. it allows you to build a website for blocking the harsh words.
 
 ### How it works 
 1. Put your sentences or paragraph.
